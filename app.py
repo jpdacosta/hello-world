@@ -12,6 +12,7 @@ class App:
     @classmethod
     def zero(cls):
         return cls(0,0)
+        
 
     def fizz_buzz(self,number):
         if (number % 3) == 0 and (number % 5)==0:
